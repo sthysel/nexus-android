@@ -101,4 +101,30 @@ $ adb push BeansGapps-Mini-7.1.x-20170610.zip /sdcard/
 * Wipe dalvik/cache
 * Reboot
 
+# Install Nougat on Samsung Nexus 10
+
+More or less the same as above, but get the releavnt ROM and TWRP from
+[here](https://forum.xda-developers.com/nexus-10/general/aosp-7-1-0r4-nougat-nexus-10-t3488155)
+
+# Notes
+
+```
+ ~/android  tree
+.
+├── nexus-10/
+│   ├── aosp_manta-7.1.1-20161207.zip
+│   ├── open_gapps-arm-7.1-pico-20170715.zip
+│   ├── SuperSU-v2.82-201705271822.zip
+│   ├── twrp-3.1.1-0-manta.img
+│   └── twrp.img
+└── nexus-7/
+    ├── aosp_grouper-7.1.2-ota-eng-20170707.ds.zip
+    ├── BeansGapps-Mini-7.1.x-20170610.zip
+    ├── twrp-3.1.1-0-grouper.img
+    └── twrp.img
+
+```
+
+
+
 
